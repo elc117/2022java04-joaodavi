@@ -31,4 +31,8 @@ class Predador {
     public void addPresa () {
         numPresas += 1;
     }
+
+    public void predando () {
+        System.out.println("O predador esta predando...");
+    }
 }
