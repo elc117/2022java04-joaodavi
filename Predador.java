@@ -1,6 +1,6 @@
 class Predador {
-    public String nome;
-    public int numPresas;
+    protected String nome;
+    protected int numPresas;
 
     public Predador (String nome, int numPresas) {
         this.nome  = nome;
